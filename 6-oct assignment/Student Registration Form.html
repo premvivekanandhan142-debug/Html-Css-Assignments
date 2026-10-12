@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center>
+    <h1>Student Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <th>
+                    <label for="name">Name</label>
+                </th>
+                <td>
+                    <input id="name" type="text" placeholder="Enter Your Name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">Email</label>
+                </th>
+                <td>
+                    <input id="email" type="email" placeholder="Enter Your Email">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="Password">Password</label>
+                </th>
+                <td>
+                    <input type="password" placeholder="Enter Your Password">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="dob">DOB</label>
+                </th>
+                <td>
+                    <input type="date" value="2026-10-07">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="gender">Gender</label>
+                </th>
+                <td>
+                    <input id="gender" type="radio" name="gender" value="male">Male
+                    <input id="gender" type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="class">Departmant</label>
+                </th>
+                <td>
+                <select>
+                <optgroup label="Engineering">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="Mech">Mech</option>
+                    <option value="Civil">Civil</option>
+                    <option value="EEE">EEE</option>
+                    <option value="B.E">B.E</option>
+                </optgroup>
+                <optgroup label="Arts">
+                     <option value="B.SC">B.SC</option>
+                     <option value="M.SC">M.SC</option>
+                </optgroup>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="phone">Phone Number</label>
+                </th>
+                <td>
+                    <input id="phone" type="tel" maxlength="10" placeholder="Enter Your Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="address">Address</label>
+                </th>
+                <td>
+                    <textarea placeholder="Enter Your Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Submit"> 
+                </td>
+                <td>
+                    <input type="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
